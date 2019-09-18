@@ -3,3 +3,6 @@
 
 # 1-compiler
 > Script that compiles a C file but does not link.
+
+# 2-assembler
+> Script that generates the assembly code of a C code and save it in an output file.
