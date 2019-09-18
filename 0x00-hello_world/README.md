@@ -18,3 +18,6 @@
 
 # 6-size.c
 > Program that prints the size of various types on the computer it is compiled and run on.
+
+# 100-intel
+> Script that generates the assembly code (Intel syntax) of a C code.
