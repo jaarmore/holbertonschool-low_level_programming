@@ -11,3 +11,6 @@
 
 ## 4-print_alphabt.c
 > This program prints the alphabet in lowercase, but not prints the letter e and q.
+
+## 5-print_numbers.c
+> This program prints all single digit numbers of base 10 and starting from 0 to 9.
