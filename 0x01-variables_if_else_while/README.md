@@ -23,3 +23,6 @@
 
 ## 8-print_base16.c
 > This programs prints numbers of base 16 in lowercase.
+
+## 9-print_comb.c
+> This programs prints  all possible combinations of single-digit numbers.
