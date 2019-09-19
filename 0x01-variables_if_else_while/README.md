@@ -14,3 +14,6 @@
 
 ## 5-print_numbers.c
 > This program prints all single digit numbers of base 10 and starting from 0 to 9.
+
+## 6-print_numberz.c
+> This program prints all single digit numbers of base 10 whitout use char caracters.
