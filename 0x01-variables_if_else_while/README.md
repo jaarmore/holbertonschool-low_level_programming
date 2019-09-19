@@ -5,3 +5,6 @@
 > This program assign a random number to the variable n each time it is executed, and print the last digit of the number stored in the variable n.
 ## 2-print_alphabet.c
 > This program prints the alphabet in lowercase, followed by a new line.
+
+## 3-print_alphabets.c
+> This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
