@@ -3,3 +3,5 @@
 
 ## 1-last_digit.c
 > This program assign a random number to the variable n each time it is executed, and print the last digit of the number stored in the variable n.
+## 2-print_alphabet.c
+> This program prints the alphabet in lowercase, followed by a new line.
