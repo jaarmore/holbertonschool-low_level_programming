@@ -8,3 +8,6 @@
 
 ## 3-print_alphabets.c
 > This program prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+## 4-print_alphabt.c
+> This program prints the alphabet in lowercase, but not prints the letter e and q.
