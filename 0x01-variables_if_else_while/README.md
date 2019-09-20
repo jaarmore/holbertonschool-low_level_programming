@@ -26,3 +26,6 @@
 
 ## 9-print_comb.c
 > This programs prints  all possible combinations of single-digit numbers.
+
+## 10-print_comb2.c
+> This programs prints the numbers from 00 to 99.
