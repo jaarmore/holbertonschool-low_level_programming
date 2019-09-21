@@ -29,3 +29,6 @@
 
 ## 10-print_comb2.c
 > This programs prints the numbers from 00 to 99.
+
+## 100-print_comb3.c
+> Program that prints all possible different combinations of two digits.
