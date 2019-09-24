@@ -4,4 +4,7 @@
 > Program that prints Holberton, followed by a new line.
 
 ## 1-alphabet.c
-> Function that print the alphabet,in lowercase, fallowed by a new line
+> Function that print the alphabet,in lowercase, followed by a new line
+
+## 2-print_alphabet_x10.c
+> Function that prints alphabet in lowercase 10 times, followed by a new line.
