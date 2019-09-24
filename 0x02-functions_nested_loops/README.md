@@ -11,3 +11,6 @@
 
 ## 3-islower.c
 > Function that checks for lowercase character.
+
+## 4-isalpha.c
+> Function that checks for alphabetic character in lowercase or uppercase.
