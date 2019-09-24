@@ -17,3 +17,6 @@
 ## 5-sign.c
 > Function that prints the sign of a number, print + if n is greater than zero,
 0 if n is zero, and prints - if n is less than zero.
+
+## 6-abs.c
+> Function that computes the absolute value of an integer.
