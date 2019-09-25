@@ -32,3 +32,6 @@
 
 ## 10-add.c
 > Function that adds two integers and returns the result.
+
+## 9-times_table.c
+> Function that print the 9 times table, starting with 0.
