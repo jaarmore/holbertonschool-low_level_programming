@@ -38,3 +38,6 @@
 
 ## 101-natural.c
 >  Program that computes and prints the sum of all the multiples of 3 or 5.
+
+## 102-fibonacci.c
+> Program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
