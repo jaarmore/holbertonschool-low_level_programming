@@ -36,3 +36,6 @@ and more..
 
 ## 9-fizz_buzz.c
 > Program prints the numbers from 1 to 100 using the "Fizz-Buzz test""Fizz-Buzz test""Fizz-Buzz test".
+
+## 10-print_triangle.c
+> Function that prints a triangle, followed by a new line.
