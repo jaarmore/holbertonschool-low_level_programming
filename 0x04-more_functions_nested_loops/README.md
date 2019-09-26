@@ -33,3 +33,6 @@ and more..
 
 ## 8-print_square.c
 > Function that prints a square, followed by a new line.
+
+## 9-fizz_buzz.c
+> Program prints the numbers from 1 to 100 using the "Fizz-Buzz test""Fizz-Buzz test""Fizz-Buzz test".
