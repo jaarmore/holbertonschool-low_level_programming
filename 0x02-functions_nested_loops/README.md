@@ -26,3 +26,18 @@
 
 ## 8-24_hours.c
 >  Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
+## 11-print_to_98.c
+> Function that prints all natural numbers from n to 98.
+
+## 10-add.c
+> Function that adds two integers and returns the result.
+
+## 9-times_table.c
+> Function that print the 9 times table, starting with 0.
+
+## 101-natural.c
+>  Program that computes and prints the sum of all the multiples of 3 or 5.
+
+## 102-fibonacci.c
+> Program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
