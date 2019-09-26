@@ -35,3 +35,6 @@
 
 ## 9-times_table.c
 > Function that print the 9 times table, starting with 0.
+
+## 101-natural.c
+>  Program that computes and prints the sum of all the multiples of 3 or 5.
