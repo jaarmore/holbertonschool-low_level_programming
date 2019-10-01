@@ -24,3 +24,6 @@
 
 ## 7-puts_half.c
 > Write a function that prints half of a string.
+
+## 8-print_array.c
+> Function that prints n elements of an array of integers.
