@@ -21,3 +21,6 @@
 
 ## 6-puts2.c
 > Function that prints every other character of a string, starting with the first character.
+
+## 7-puts_half.c
+> Write a function that prints half of a string.
