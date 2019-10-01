@@ -6,15 +6,18 @@
 void print_rev(char *s)
 {
 	int count = 0;
+	char *revs;
+
+	revs = s;
 
 	while (s[count] != '\0')
 	{
 		count++;
 	}
-
+	count--;
 	while (count >= 0)
 	{
-		_putchar(s[count]);
+		_putchar(revs[count]);
 		count--;
 	}
 	_putchar('\n');
