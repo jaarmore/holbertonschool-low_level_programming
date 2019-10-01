@@ -13,25 +13,19 @@ void puts_half(char *str)
 		count++;
 	}
 
+	count--;
 	if (count % 2 == 0)
 	{
 		half = count / 2;
-
-		while (str[half] != '\0')
-		{
-			_putchar(str[half]);
-			half++;
-		}
 	}
 	else
 	{
 		half = (count - 1) / 2;
-
-		while (str[half] != '\0')
-		{
-			_putchar(str[half]);
-			half++;
-		}
+	}
+	while (str[half] != '\0')
+	{
+		_putchar(str[half]);
+		half++;
 	}
 	_putchar('\n');
 }
