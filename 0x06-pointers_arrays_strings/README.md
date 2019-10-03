@@ -5,4 +5,7 @@
 > Function that concatenates two strings.
 
 ## 1-strncat.c
-> Function that concatenates two strings.
+> Function that concatenates two strings, using n characters passing on the function.
+
+## 2-strncpy.c
+> Function that copies a string.
