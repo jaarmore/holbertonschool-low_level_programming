@@ -9,3 +9,6 @@
 
 ## 2-strncpy.c
 > Function that copies a string.
+
+## 3-strcmp.c
+> Function that compares two strings.
