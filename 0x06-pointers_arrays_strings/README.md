@@ -3,3 +3,6 @@
 
 ## 0-strcat.c
 > Function that concatenates two strings.
+
+## 1-strncat.c
+> Function that concatenates two strings.
