@@ -21,3 +21,6 @@
 
 ## 6-cap_string.c
 > Function that capitalizes all words of a string.
+
+## 8-rot13.c
+> Function that encodes a string using rot13.
