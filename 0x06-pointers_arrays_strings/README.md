@@ -21,3 +21,6 @@
 
 ## 6-cap_string.c
 > Function that capitalizes all words of a string.
+
+## 7-leet.c
+> Function that encode a string into 1337 format.
