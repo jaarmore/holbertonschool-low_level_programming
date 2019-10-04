@@ -18,3 +18,6 @@
 
 ## 5-string_toupper.c
 > Function that changes all lowercase letters of a string to uppercase.
+
+## 6-cap_string.c
+> Function that capitalizes all words of a string.
