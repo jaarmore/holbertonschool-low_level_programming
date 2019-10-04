@@ -22,5 +22,10 @@
 ## 6-cap_string.c
 > Function that capitalizes all words of a string.
 
+<<<<<<< HEAD
 ## 8-rot13.c
 > Function that encodes a string using rot13.
+=======
+## 7-leet.c
+> Function that encode a string into 1337 format.
+>>>>>>> f26b9785a5c063c0b54f1e258297ca0a2e62b032
