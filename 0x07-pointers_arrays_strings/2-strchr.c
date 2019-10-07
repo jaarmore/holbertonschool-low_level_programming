@@ -14,7 +14,7 @@ char *_strchr(char *s, char c)
 
 	if (!s)
 	{
-		return (NULL);
+		return (0);
 	}
 	else
 	{
@@ -25,5 +25,5 @@ char *_strchr(char *s, char c)
 			ptr++;
 		}
 	}
-	return ('\0');
+	return (0);
 }
