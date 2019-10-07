@@ -3,3 +3,6 @@
 
 ## 0-memset.c
 > Function that fill memory with a constant byte.
+
+## 1-memcpy.c
+> Function that copies a memory area.
