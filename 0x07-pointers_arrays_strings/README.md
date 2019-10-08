@@ -9,3 +9,6 @@
 
 ## 2-strchr.c
 > Function that locates a character in a string.
+
+## 9-set_string.c9-set_string.c
+> Function that sets the value of a pointer to a char.
