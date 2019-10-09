@@ -12,3 +12,6 @@
 
 ## 3-factorial.c
 > Function that returns the factorial of a given number.
+
+## 4-pow_recursion.c
+> Function that returns the value of x raised to the power of y.
