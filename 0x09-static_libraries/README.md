@@ -25,3 +25,7 @@
 + unsigned int _strspn(char *s, char *accept);
 + char *_strpbrk(char *s, char *accept);
 + char *_strstr(char *haystack, char *needle);
+
+## create_static_lib.sh
+> Script that creates a static library called liball.a from all the .c file in
+in the current directory.
