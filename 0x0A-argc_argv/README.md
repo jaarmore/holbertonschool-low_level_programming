@@ -9,3 +9,6 @@
 
 ## 2-args.c
 > Program that prints all arguments it receives.
+
+## 3-mul.c
+> Program that multiplies two numbers passed as parameters.
