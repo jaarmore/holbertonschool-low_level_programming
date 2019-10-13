@@ -12,3 +12,6 @@
 
 ## 3-mul.c
 > Program that multiplies two numbers passed as parameters.
+
+## 4-add.c
+> Program that adds positive numbers.
