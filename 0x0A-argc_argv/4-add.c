@@ -9,28 +9,32 @@
 */
 int main(int argc, char *argv[])
 {
-	int i, sum, temp;
+	int i, sum;
+	long int num;
+	char *ptr;
 
-	temp = 0;
 	sum = 0;
-
-	if (argc <= 1)
-		printf("%d\n", temp);
 
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (atoi(argv[i]) == 0)
+			num = strtol(argv[i], &ptr, 10);
+
+			if (ptr != NULL && ptr[0] != '\0')
 			{
 				printf("Error\n");
 				return (1);
 			}
 			else
 			{
-				sum += atoi(argv[i]);
+				sum += num;
 			}
 		}
+		printf("%d\n", sum);
+	}
+	else
+	{
 		printf("%d\n", sum);
 	}
 
