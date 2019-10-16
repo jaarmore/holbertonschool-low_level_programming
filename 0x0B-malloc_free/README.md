@@ -1,4 +1,4 @@
-# 0x0B. C - malloc, free
+B# 0x0B. C - malloc, free
 > This topic is about malloc, free functions to allocate memory spaces.
 
 ## 0-create_array.c
@@ -7,3 +7,6 @@
 ## 1-strdup.c
 > function that returns a pointer to a newly allocated space in memory, which 
 contains a copy of the string given as a parameter.
+
+## 2-str_concat.c
+> Function that concatenates two strings, using malloc.
