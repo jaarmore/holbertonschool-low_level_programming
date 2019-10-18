@@ -1,4 +1,4 @@
-B# 0x0C. C - More malloc, free
+BB# 0x0C. C - More malloc, free
 > This topic is aboutn use of malloc, calloc and realloc functions in C,
 > also hw to use the exit function.
 
@@ -10,3 +10,6 @@ B# 0x0C. C - More malloc, free
 
 ## 2-calloc.c
 > Function that allocates memory for an array, using malloc, and set values to 0.
+
+## 3-array_range.c
+> Function that creates an array of integers, from min to max.
