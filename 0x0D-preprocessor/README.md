@@ -1,4 +1,4 @@
-# 0x0D. C - Preprocessor
+B# 0x0D. C - Preprocessor
 > This topic is about uses of preprocessor in C, what are macros and how to use them
 what are the most common predefined macros, how to include guard your header files.
 
@@ -8,3 +8,6 @@ what are the most common predefined macros, how to include guard your header fil
 
 ## 1-pi.h
 > header file that defines a macro named PI as an abbreviation for the token 3.14159265359
+
+## 2-main.c
+> Program that prints the name of the file it was compiled from, followed by a new line.
