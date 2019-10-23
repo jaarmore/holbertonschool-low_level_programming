@@ -9,6 +9,12 @@ void print_name(char *name, void (*f)(char *))
 {
 	void (*ptr_f)(char *);
 
+	if (name == NULL)
+		return;
+
+	if (f == NULL)
+		return;
+
 	ptr_f = f;
 	ptr_f(name);
 }
