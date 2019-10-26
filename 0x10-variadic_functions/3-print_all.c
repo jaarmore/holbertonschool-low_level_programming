@@ -9,17 +9,12 @@
 int is_valid(char c)
 {
 	char value[] = "cifs";
-	int i, cont = 0;
+	int i = 0, cont = 0;
 
-	if (c == '\0')
-		return (0);
-
-	for (i = 0; i < 4; i++)
+	while (c != value[i] && value[i] != '\0')
 	{
-		if (c == value[i])
-		{
-			cont++;
-		}
+		cont++;
+		i++;
 	}
 	return (cont);
 }
@@ -57,7 +52,7 @@ void print_all(const char * const format, ...)
 			printf("(nil)");
 			break;
 		}
-		if (is_valid(format[(i + 1)]) > 0)
+		if ((format[i + 1] != '\0') && is_valid(format[(i + 1)]) <= 3)
 			printf(", ");
 		i++;
 	}
