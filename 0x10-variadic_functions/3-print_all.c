@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #ifndef IS_VALID
-#define is_valid(x) (x == 'c' || x == 'i' || x == 'f' || x == 's')
+#define is_valid(x) ((x) == 'c' || (x) == 'i' || (x) == 'f' || (x) == 's')
 #endif
 /**
  * print_all - function that prints anything.
@@ -15,12 +15,8 @@ void print_all(const char * const format, ...)
 	char *str;
 
 	va_start(all, format);
-	while (format == NULL)
-	{
-		printf("\n");
-		return;
-	}
-	while (format[i] != '\0')
+
+	while ((format != NULL) && (format[i] != '\0'))
 	{
 		switch (format[i])
 		{
