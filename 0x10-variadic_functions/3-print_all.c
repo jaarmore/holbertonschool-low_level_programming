@@ -1,23 +1,9 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-/**
- * is_valid - function that checks the next argument passed to function
- * @c: value to be checked.
- * Return: 0 if no exist, 1 otherwise.
-*/
-int is_valid(char c)
-{
-	char value[] = "cifs";
-	int i = 0, cont = 0;
-
-	while (c != value[i] && value[i] != '\0')
-	{
-		cont++;
-		i++;
-	}
-	return (cont);
-}
+#ifndef IS_VALID
+#define is_valid(x) (x == 'c' || x == 'i' || x == 'f' || x == 's')
+#endif
 /**
  * print_all - function that prints anything.
  * @format: is a list of types of arguments passed to function.
@@ -52,7 +38,7 @@ void print_all(const char * const format, ...)
 			printf("(nil)");
 			break;
 		}
-		if ((format[i + 1] != '\0') && is_valid(format[(i + 1)]) <= 3)
+		if (is_valid(format[(i + 1)]))
 			printf(", ");
 		i++;
 	}
