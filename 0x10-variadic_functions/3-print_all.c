@@ -1,9 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#ifndef IS_VALID
-#define is_valid(x) ((x) == 'c' || (x) == 'i' || (x) == 'f' || (x) == 's')
-#endif
 /**
  * print_all - function that prints anything.
  * @format: is a list of types of arguments passed to function.
@@ -13,6 +10,7 @@ void print_all(const char * const format, ...)
 	int i = 0;
 	va_list all;
 	char *str;
+	char *s = "";
 
 	va_start(all, format);
 
@@ -21,13 +19,16 @@ void print_all(const char * const format, ...)
 		switch (format[i])
 		{
 		case 'c':
-			printf("%c", va_arg(all, int));
+			printf("%s%c", s, va_arg(all, int));
+			s = ", ";
 			break;
 		case 'i':
-			printf("%d", va_arg(all, int));
+			printf("%s%d", s, va_arg(all, int));
+			s = ", ";
 			break;
 		case 'f':
-			printf("%f", va_arg(all, double));
+			printf("%s%f", s, va_arg(all, double));
+			s = ", ";
 			break;
 		case 's':
 			str = va_arg(all, char *);
@@ -35,12 +36,10 @@ void print_all(const char * const format, ...)
 			{
 				str = "(nil)";
 			}
-			printf("%s", str);
+			printf("%s%s", s, str);
+			s = ", ";
 			break;
 		}
-		if (is_valid(format[(i + 1)]))
-			printf(", ");
-		i++;
 	}
 	va_end(all);
 	printf("\n");
