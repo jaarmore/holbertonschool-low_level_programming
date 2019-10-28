@@ -14,9 +14,10 @@ void print_all(const char * const format, ...)
 	va_list all;
 	char *str;
 
+	va_start(all, format);
+
 	while ((format != NULL) && (format[i] != '\0'))
 	{
-		va_start(all, format);
 		switch (format[i])
 		{
 		case 'c':
