@@ -14,13 +14,8 @@ void print_all(const char * const format, ...)
 	va_list all;
 	char *str;
 
-	while (format == NULL)
-	{
-		printf("\n");
-		return;
-	}
 	va_start(all, format);
-	while (format[i] != '\0')
+	while ((format[i] != '\0') && (format != NULL) && (format[i] != "")
 	{
 		switch (format[i])
 		{
