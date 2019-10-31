@@ -20,15 +20,15 @@ int _strlen(char *str)
 */
 list_t *add_node(list_t **head, const char *str)
 {
-        list_t *node = NULL;
+	list_t *node = NULL;
 
-        node = (list_t *)malloc(sizeof(list_t));
-        if (node == NULL)
-                return (NULL);
-        node->str = strdup(str);
-        node->len = _strlen((char *)str);
-        node->next = (*head);
-        (*head) = node;
+	node = (list_t *)malloc(sizeof(list_t));
+	if (node == NULL)
+		return (NULL);
+	node->str = strdup(str);
+	node->len = _strlen((char *)str);
+	node->next = (*head);
+	(*head) = node;
 
-        return ((*head));
+	return ((*head));
 }
