@@ -3,7 +3,7 @@
 
 ## Data structure to use
 
-´´´
+```
 /**
  * struct listint_s - singly linked list
  * @n: integer
@@ -17,7 +17,7 @@ typedef struct listint_s
     int n;
     struct listint_s *next;
 } listint_t;
-´´´
+```
 
 ## 0-print_listint.c
 > function that prints all the elements of a listint_t list.
