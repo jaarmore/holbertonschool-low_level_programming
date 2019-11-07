@@ -25,10 +25,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	for (sizelist = 0; lenlist != NULL; sizelist++)
 		lenlist = lenlist->next;
 	if (index > sizelist)
-	{
-		free(node);
 		return (-1);
-	}
+
 	for (cont = 0; cont < (index - 1); cont++)
 		node = node->next;
 	if (cont == (index - 1))
