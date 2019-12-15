@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * dlistint_len - function that returns the number of elements in a linked list.
+ * dlistint_len - returns the number of elements in a double linked list.
  * @h: first element of double linked list.
  * Return: number of nodes.
  */
