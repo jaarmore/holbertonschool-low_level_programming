@@ -17,7 +17,6 @@ dlistint_t *new_node(int data)
 
 	return (node);
 }
-
 /**
  * insert_dnodeint_at_index - function that insert a node at given position.
  * @h: head of the dobule linked list.
@@ -27,14 +26,14 @@ dlistint_t *new_node(int data)
 */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *prev_node, *last_node, *node = NULL;
-	dlistint_t *lenlist = (*h);
+	dlistint_t *prev_node, *last_node, *node = NULL, *lenlist = (*h);
 	unsigned int cont, sizelist;
 
 	node = new_node(n);
 	if (node == NULL)
 		return (NULL);
-
+	if (h == NULL && idx != 0)
+		return (NULL);
 	if (idx == 0 || (*h) == NULL)
 	{
 		node->next = (*h);
@@ -54,7 +53,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		prev_node = last_node;
 		last_node = last_node->next;
 	}
-	if (cont == idx && (prev_node != NULL || last_node != NULL))
+	if (cont == idx && last_node != NULL)
 	{
 		prev_node->next = node;
 		node->prev = prev_node;
