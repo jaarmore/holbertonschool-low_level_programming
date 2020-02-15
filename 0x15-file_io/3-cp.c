@@ -9,15 +9,10 @@
 #define READ_NBYTES 1204
 /**
  * main - program to copy content of file to another file.
- * Return: 1 if success or -1 if fail.
-*/
-/**
- * main - copy content of one file into another
  * @argc: count of arguments to program
  * @argv: array of arguments to program
- *
  * Return: EXIT_SUCCESS on success, exit with error number, otherwise.
- */
+*/
 int main(int argc, char *argv[])
 {
 	char *file_from, *file_to;
