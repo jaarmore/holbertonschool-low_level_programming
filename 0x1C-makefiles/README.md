@@ -16,7 +16,7 @@ makefiles using GNU-Linux.
 + What are explicit and implicit rules
 
 ## Tasks
----
+
 ### 0-Makefile
 Create your first Makefile
 
