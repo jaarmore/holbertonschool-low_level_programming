@@ -41,7 +41,6 @@ int main(int argc, char *av[])
 			exit(99);
 		}
 	} while (fileread == 1024);
-
 	if (close(file1) == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file1);
