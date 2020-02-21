@@ -1,0 +1,6 @@
+# Create my second Makefile
+CC=gcc
+SRC=main.c holberton.c
+
+all: $(SRC) m.h
+	$(CC) -o holberton $(SRC)
